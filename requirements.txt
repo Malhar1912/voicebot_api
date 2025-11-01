@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+twilio
+pydub
+speechrecognition
+gtts
+google-generativeai
+pandas
+ffmpeg-python
+requests
