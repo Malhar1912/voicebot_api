@@ -13,7 +13,7 @@ app = FastAPI()
 
 # --- Configure Gemini from environment variable ---
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 # --- Load all CSVs into one DataFrame ---
 csv_dir = os.path.join(os.getcwd(), "data")
